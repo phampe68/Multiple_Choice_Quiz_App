@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/mainActivityBackground"
+    >
+
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="378dp"
+        android:layout_height="137dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/question1"
+        android:textAlignment="textStart"
+        android:textColor="@color/questionText"
+        android:textSize="20sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/txtAnswers"
+        android:layout_width="370dp"
+        android:layout_height="197dp"
+        android:fontFamily="@font/righteous"
+        android:textAlignment="textStart"
+        android:textColor="@color/answersText"
+        android:textSize="14sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="259dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_divider_linear_layout"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/btnMultipleChoiceA"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/multipleChoiceA"
+            android:textAlignment="center"
+
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/btnMultipleChoiceB"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/multipleChoiceB"
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/btnMultipleChoiceC"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/multipleChoiceC"
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/btnMultipleChoiceD"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/multipleChoiceD"
+            android:textColor="@color/buttonText" />
+
+        <Button
+            android:id="@+id/btnMultipleChoiceE"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/multipleChoiceE"
+            android:textColor="@color/buttonText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="66dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+
+        >
+
+
+        <Button
+            android:id="@+id/btnPrevious"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPrevious" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnSubmit" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnNext" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

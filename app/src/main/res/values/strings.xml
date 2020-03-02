@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Multiple_Choice_Quiz_App_V2</string>
+
+    <!--Multiple Choice Buttons-->
+    <string name="multipleChoiceA">A</string>
+    <string name="multipleChoiceB">B</string>
+    <string name="multipleChoiceC">C</string>
+    <string name="multipleChoiceD">D</string>
+    <string name="multipleChoiceE">E</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPrevious">Previous</string>
+    <string name="btnSubmit">Submit</string>
+    <!--Question Strings-->
+
+
+    <string name="question1">Which layout lays out its child components one after the other with an orientation
+    attribute that dictates whether children will be laid vertically or horizontally?</string>
+
+    <!--Questions are formatted as string arrays.
+        - The first item is the actual question being asked
+        - The second item is the CORRECT answer to the question
+        - All following items are WRONG answers.
+    -->
+    <string-array name="question1">
+        <item>Which layout lays out its child components one after the other with an orientation attribute that dictates whether children will be laid vertically or horizontally?</item>
+        <item>linear layout</item>
+        <item>constraint layout</item>
+        <item>relative layout</item>
+        <item>grid view layout</item>
+        <item>list view layout</item>
+    </string-array>
+
+    <string-array name="question2">
+        <item>Which of the following are differences between Java and Kotlin?</item>
+        <item>All answers are correct</item>
+        <item>In Kotlin, all types are non-nullable by default</item>
+        <item>Kotlin does not require the use of findViewByIDs</item>
+        <item>In Kotlin, you can declare a primary constructor in the class definition.</item>
+        <item>Data types of variables in Kotlin can be inferred.</item>
+    </string-array>
+
+    <string-array name="question3">
+        <item>Which of the following best describes Abstraction?</item>
+        <item>The practice of hiding unnecessary details to handle complexity</item>
+        <item>Writing code with multiple meanings</item>
+        <item>The process of wrapping data members and methods into a single unit</item>
+        <item>The process of protecting the members of a class from unauthorized access</item>
+        <item>When a class inherits the properties of one class and extends according to need</item>
+    </string-array>
+
+
+    <string-array name="question4">
+        <item>Which of the following are NOT part of the activity lifecycle?</item>
+        <item>onRevive()</item>
+        <item>onCreate()</item>
+        <item>onResume()</item>
+        <item>onPause()</item>
+        <item>onStop()</item>
+    </string-array>
+
+
+
+
+    <string-array name="question5">
+        <item>What happens when you rotate a device from portrait to landscape in android?</item>
+        <item>The current activity process is killed and a new version starts up</item>
+        <item>Android simply changes the activity dimensions to landscape keeping the same process</item>
+        <item>The current activity process is moved to the cloud. A new process in landscape starts and reloads the previous process data</item>
+        <item>The current activity process is killed. A new process starts up in landscape but when you rotate back to portrait it reloads your previous activity.</item>
+        <item>The entire app restarts</item>
+    </string-array>
+
+
+    <string-array name="question6">
+        <item>How would you typically create a member variable for a Button?</item>
+        <item>private Button mStartButton;</item>
+        <item>Button mStartButton;</item>
+        <item>public Button mStartButton;</item>
+        <item>Button private mStartButton;</item>
+        <item>mStartButton private Button;</item>
+    </string-array>
+
+
+    <string-array name="question7">
+        <item>Which of the following statements accurately describes minimum API level in Android?</item>
+        <item>The lower the min API, the more support the application has for older versions of Android</item>
+        <item>Changing the minimum API does nothing in respect for android version support</item>
+        <item>The higher the min API, the more support the application has for older versions of Android</item>
+        <item>Changing the min API has a different effect depending on the device you own</item>
+        <item>A high min API implies the device only works on old phones</item>
+    </string-array>
+
+    <string-array name="question8">
+        <item>Which of the following is NOT a good practice in writing Android applications?</item>
+        <item>keeping all variables and methods public to make your code more accessible.</item>
+        <item>Using extracted string resource as opposed to hard coding strings</item>
+        <item>Using local variables to better define nested expressions</item>
+        <item>Using meaningful variable and function names</item>
+        <item>Avoiding hard coded constants</item>
+    </string-array>
+
+    <string-array name="question9">
+        <item>Which of the following is NOT an executable language?</item>
+        <item>XML</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>C++</item>
+    </string-array>
+
+    <string-array name="question10">
+        <item>What is the correct syntax for displaying a Toast with the message "Hello Earth"?</item>
+        <item>Toast.makeText(MainActivity.this, "Hello Earth", Toast.LENGTH_SHORT).show();</item>
+        <item>Toast.message(MainActivity.this, "Hello Earth", Toast.LENGTH_SHORT).show();</item>
+        <item>Toast.makeText(MainActivity, "Hello Earth", Toast.LENGTH_SHOW).show();</item>
+        <item>Toast.makeText("Hello Earth");</item>
+        <item>Toast.makeText(MainActivity.this, "Hello Earth").show();</item>
+    </string-array>
+
+</resources>

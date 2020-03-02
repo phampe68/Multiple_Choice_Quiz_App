@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="mainActivityBackground">#272727</color>
+    <color name="buttonBorder">#747474</color>
+    <color name="questionText">#FFE400</color>
+    <color name="buttonText">#14A76C</color>
+    <color name="buttonClicked">#FFE400</color>
+    <color name="answersText">#FF652F</color>
+</resources>
